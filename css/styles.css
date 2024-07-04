@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  /* Para utilizar rem */
+  font-size: 62.5%;
+}
+body{
+  background-color: #303841;
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+}
+
+h1{
+  text-align: center;
+  font-size: 3rem;
+  font-family: 'Lato', sans-serif;
+  background-color: #be3144;
+  color: aliceblue;
+}
+p{
+  text-align: center;
+  font-size: 2rem;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  color:#be3144
+}
+
+
+#img-caption {
+    color: aliceblue;
+   font-weight: 400;
+    text-align: center;
+    margin: 15px 0 5px 0;
+    font-size: 2.5rem;
+  }
+
+  #image{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 2% auto;
+   
+    
+  }
+  h3{
+    margin: 6%;
+    text-align: center;
+    font-size: 2.5rem;
+    color: aliceblue;
+    font-weight: 400;
+    text-decoration: underline;
+}
+ul li{
+  background-color: #be3144;
+  color: aliceblue;
+  font-style: italic;
+  font-size: 1.7rem;
+  align-items: center;
+  width: 80%;
+  margin-left: 10%;
+  list-style: none;
+}
+  #tribute-info{
+    text-align: center;
+    font-size: 1.7rem;
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+  }
+.gallery-img{
+  max-width: 100%;
+  width: 25%;
+  margin-top: 3%;
+}
+
+
+ footer{
+  display: block;
+  font-size: 1.8em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  font-weight: bold;
+  color:#be3144;
+  width: 35%;
+  margin-left: 10%;
+ }
+ #tribute-link{
+  color: lawngreen;
+ }
